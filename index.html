@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlowForGood | Clean Water</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-wrap">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="FlowForGood">
+        <span class="brand-mark">
+          <img src="img/water-can-transparent.png" alt="" class="brand-logo" />
+        </span>
+        <span class="brand-text">FlowForGood</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="#mission">Mission</a>
+        <a class="nav-link" href="#impact">Impact</a>
+        <a class="nav-link" href="#story">Story</a>
+        <a class="nav-link" href="#donate">Donate</a>
+      </nav>
+
+      <a class="header-button" href="#donate">Give Water</a>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <div class="hero-kicker">Clean Water Initiative</div>
+          <h1>Every drop starts a future.</h1>
+          <p class="hero-lede">
+            Every family deserves clean, safe water close to home.
+            Your support funds wells, infrastructure, and water systems that build healthier communities.
+          </p>
+
+          <div class="hero-actions">
+            <a class="primary-button" href="#donate">Give clean water</a>
+            <a class="secondary-button" href="#mission">See our mission</a>
+          </div>
+
+          <div class="hero-proof">
+            <div class="proof-card">
+              <span class="proof-number">12,469</span>
+              <span class="proof-label">People reached</span>
+            </div>
+            <div class="proof-card">
+              <span class="proof-number">96%</span>
+              <span class="proof-label">Project transparency</span>
+            </div>
+            <div class="proof-card">
+              <span class="proof-number">24k+</span>
+              <span class="proof-label">Water systems funded</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="hero-image-wrap">
+            <img src="img/impact.jpeg" alt="Community water project" class="hero-image" />
+          </div>
+
+          <div class="hero-floating-card">
+            <span class="floating-label">Today’s water fund</span>
+            <span class="floating-number">$48,900</span>
+            <span class="floating-meta">Built for new wells and repair funding</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section mission" id="mission">
+        <div class="section-heading centered">
+          <span class="section-kicker">Our Mission</span>
+          <h2>Water access is the first step toward opportunity.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-icon">💧</span>
+            <h3>Safe Water</h3>
+            <p>We build dependable water systems that bring clean water where it is needed most.</p>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-icon">🌍</span>
+            <h3>Healthy Communities</h3>
+            <p>Clean water improves health, lowers disease, and supports every family’s daily life.</p>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-icon">📚</span>
+            <h3>Better Futures</h3>
+            <p>Reliable water creates more time for school, work, and long-term local growth.</p>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-icon">🤝</span>
+            <h3>Local Leadership</h3>
+            <p>We partner with communities to maintain water access with local ownership.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section impact" id="impact">
+        <div class="section-heading">
+          <span class="section-kicker">Impact Tracker</span>
+          <h2>From water source to lasting change.</h2>
+        </div>
+
+        <div class="impact-grid">
+          <article class="impact-card">
+            <span class="impact-icon">$10</span>
+            <p>Supports the first clean-water delivery point for one family.</p>
+          </article>
+
+          <article class="impact-card">
+            <span class="impact-icon">$25</span>
+            <p>Helps maintain a safe water access point for a community.</p>
+          </article>
+
+          <article class="impact-card">
+            <span class="impact-icon">$50</span>
+            <p>Funds water system repairs and sustainable community infrastructure.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section story" id="story">
+        <div class="story-grid">
+          <div class="story-image">
+            <img src="img/bottomleftwater.png" alt="Water project" class="story-photo" />
+          </div>
+
+          <div class="story-copy">
+            <span class="section-kicker">The Water Story</span>
+            <h2>Imagine a day without a safe water source.</h2>
+            <p>
+              Women and children walk long distances for water. Families drink unsafe water because the nearest source is unreliable.
+              When access becomes local and safe, every part of daily life grows stronger.
+            </p>
+
+            <ul class="story-list">
+              <li>Clean water for every household</li>
+              <li>Better health and fewer missed school days</li>
+              <li>Reliable water access for local farms and markets</li>
+              <li>Community ownership and long-term resilience</li>
+            </ul>
+
+            <a class="text-link" href="#donate">Join the water movement →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section" id="donate">
+        <div class="cta-content">
+          <span class="section-kicker light">Join the Fund</span>
+          <h2>Be the reason clean water reaches home.</h2>
+          <p>
+            A donation creates safe water access where families need it most. Every contribution powers a stronger, healthier tomorrow.
+          </p>
+          <div class="donation-form">
+            <label class="donation-label" for="amount">Choose your impact</label>
+            <div class="donation-row">
+              <select id="amount" class="donation-select" aria-label="Donation amount">
+                <option>$10 gives one family access</option>
+                <option>$25 funds system repair</option>
+                <option>$50 supports local infrastructure</option>
+              </select>
+              <a class="primary-button dark" href="#home">Donate today</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <img src="img/cw_logo.png" alt="" class="footer-logo" />
+        <span class="footer-title">FlowForGood</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="#mission">Mission</a>
+        <a href="#impact">Impact</a>
+        <a href="#story">Story</a>
+        <a href="#donate">Donate</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
